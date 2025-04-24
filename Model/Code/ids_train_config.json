@@ -1,15 +1,8 @@
 {
-    "dataset": "../IoT-Network-Intrusion-Detection-System-UNSW-NB15/datasets/UNSW_NB15.csv",
-    "label_col": "label",
-    "categorical_cols": [
-      "proto",
-      "state",
-      "service"
-    ],
-    "drop_cols": [
-      "id",
-      "attack_cat"
-    ]
+    "dataset": " ",
+    "label_col": " ",
+    "categorical_cols": [" "],
+    "drop_cols": [" "]
   }
   
   
