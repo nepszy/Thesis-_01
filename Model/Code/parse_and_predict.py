@@ -1,4 +1,4 @@
-# === parse_log_and_predict.py ===
+
 from dotenv import load_dotenv
 import os
 import pandas as pd
@@ -15,12 +15,12 @@ ALIENVAULT_API_KEY = os.getenv("ALIENVAULT_API_KEY")
 model = joblib.load("knn_model.joblib")
 preprocessor = joblib.load("preprocessor.joblib")
 
-# Load real log data (CSV format)
+# Load real log data (.csv)
 log_df = pd.read_csv("../test_log_attack.csv")
 
 # Fix column names to match the training set
-reference_df = pd.read_csv("../IoT-Network-Intrusion-Detection-System-UNSW-NB15/datasets/UNSW_NB15.csv")
-feature_names = reference_df.columns[:-2]  # same 49 features
+reference_df = pd.read_csv(" ")
+feature_names = reference_df.columns[:-2]
 log_df.columns = feature_names
 
 # Apply same preprocessing
