@@ -1,0 +1,84 @@
+{
+ 
+  "friday_02_03_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port"]
+  },
+
+  "friday_16_02_2018": {
+  "dataset": "../../CSE-CIC-IDS2018/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv",
+  "label_col": "Label",
+  "categorical_cols": ["Protocol"],
+  "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "friday_23_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Friday-23-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "thursday_01_03_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "thursday_15_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "thursday_20_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Thursday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "thursday_22_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "wednesday_14_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "wednesday_21_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  "wednesday_28_02_2018": {
+    "dataset": "../../CSE-CIC-IDS2018/Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+    "label_col": "Label",
+    "categorical_cols": ["Protocol"],
+    "drop_cols": ["Timestamp", "Dst Port", "Src IP", "Dst IP", "Src Port", "Flow ID"]
+  },
+
+  
+  "unsw_nb15": {
+    "dataset": "../../Dataset_UNSW_NB15/datasets/UNSW_NB15.csv",
+    "label_col": "label",
+    "categorical_cols": ["proto", "service", "state"],
+    "drop_cols": ["id", "attack_cat"]
+    }
+
+  
+}
+
+
