@@ -3,7 +3,7 @@
 This project builds a dynamic AI-based Intrusion Detection System (IDS) by Python.
 It allows you to:
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-- Train models on multiple network traffic datasets (like CICIDS2018, UNSW-NB15, etc.)  -
+- Train models on multiple network traffic datasets ( UNSW-NB15)  -
 - Predict attacks dynamically                                                           -
 - Enrich detected alerts with OSINT data (AbuseIPDB, AlienVault)                        -
 - Fully automate training and prediction with a master script                           -
@@ -116,4 +116,3 @@ pip3 install numpy pandas tensorflow scikit-learn
 
 ## Author
 - Group 28 from CDU 
-
